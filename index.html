@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main>
+        <div class="container">
+            <h2 id="titulo">Login</h2>
+            <form id="formLogin">
+                <div id="divEmail" class="conjunto">
+                    <label for="email">Email:</label>
+                    <input for="email" id="email" placeholder="Email" required>
+                </div>
+                <div id="divSenha" class="conjunto">
+                    <label for="senha">Senha:</label>
+                    <input for="password" id="senha" placeholder="Senha" required>
+                </div>
+                <button id="botaoEnvio" type="submit">Entrar</button>
+            </form>
+            <div id="mensagem"></div>
+            <div class="toggle" id="toggle">
+                <p>Não tem conta? Cadastre-se!</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
